@@ -2,7 +2,7 @@
 
 import * as admin from 'firebase-admin';
 
-const serviceAccount = require("../../swapped-backend-firebase-adminsdk-sw8pd-cdca943d9e.json");
+//const serviceAccount = require("caminho da chave privada");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
